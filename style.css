@@ -1,0 +1,338 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* *{
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+} */
+
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    /* box-sizing: border-box; */
+}
+.imagelogo 
+{
+    height: 7rem;
+    margin : 4rem 0 0 7rem;
+    transition: 0.5s ease;
+  
+}
+.imagelogo:hover
+{
+    transform: scale(1.1);
+}
+.nav
+{
+    display : flex;
+    justify-content: space-between;  
+}
+nav
+{
+    margin: 6rem ;
+}
+nav a
+{
+    margin-right: 4rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 500 ;
+    transition: 0.5s ease;
+}
+nav a:hover
+{
+    color:rgb(117, 2, 83);
+    /* border-bottom: 3px solid rgb(192, 8, 8); */
+}
+.active
+{
+    color:rgb(2, 157, 159);
+}
+.name
+{
+    margin-left: 4rem;
+    font-size:2rem;
+}
+.name span
+{
+       font-size: 3rem;
+       color:  rgb(161, 47, 151); 
+}
+.para
+{
+    margin-left: 4rem;
+    text-align: left;
+    width: 600px;
+    margin-top: 1rem;
+}
+.social
+{
+    margin:1rem 0 0 4rem;
+}
+.social a{
+    margin-right: -1rem;
+    margin-left: 4rem;
+    font-size: 2.5rem;
+    transition: 0.5s ease;
+}
+.social a:hover
+{
+    transform: scale(1.1);
+    text-shadow: 0 0 10px rgb(194, 92, 194);
+}
+.button
+{
+    margin: 2.5rem 0 0 13rem;
+    text-decoration: none;  
+   
+}
+
+
+.btn
+{
+    border: 4px solid rgb(92, 2, 51);
+    border-radius: 40px;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.5s ease;
+    
+}
+.btn:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgb(87, 1, 76);
+}
+
+.ima
+{
+    position: absolute;
+    margin: -25rem 0 0 60rem;
+
+}
+
+.ima img{
+    width:20rem;
+    height: 20rem;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0px 0px 15px rgb(153, 2, 130);
+    transition: 0.5s ease;
+
+}
+.ima img:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgb(206, 204, 76);
+}
+.service
+{
+    margin : 2rem 0 4rem 5rem;
+    font-size: 2rem;
+    font-weight: 300; 
+}
+.service-list li
+{
+    margin-top: 2rem;
+}
+.service-list i
+{
+    margin-right: 1.5rem;
+}
+.hover li
+{
+    transition: 0.5s ease;
+}
+.hover li:hover
+{
+    transform: scale(1.1);
+    text-shadow:0px 0px 1rem rgb(220, 144, 172);
+    cursor: pointer;
+}
+.edu-table 
+{
+    margin: 1.5rem;
+}
+.edu-table th,td
+{
+    padding: 1rem 1rem 1rem 1rem;
+}
+.edu-table th,td,table
+{
+    border: 1px solid purple;
+    font-size: 22px;
+
+}
+
+.contact td,table
+{
+    border:none;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contact tr
+{
+    margin:none;
+    transition: 0.5s ease;
+}
+.contact tr:hover
+{
+    transform: scale(1.1);
+    text-shadow: 0 0 15px palevioletred;
+}
+.contact table 
+{
+    margin: -5rem;
+}
+hr
+{
+    width: 80rem;
+    margin: 1.5rem 2rem 1.5rem 2rem;
+}
+#map
+{
+    width :80rem;
+}
+/* it will arrange it in row and col */
+.skills
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4rem;
+    margin: 2rem 2rem 0 3rem;
+   
+}
+/* hover effect */
+.skills div:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 198, 253, 0.991);
+    cursor: pointer;
+    border : 1px solid rgba(0, 198, 253, 0.991);
+}
+ /* now i will give border to the col */
+
+.skills div
+{
+    transition: 0.5s ease;
+    border: 1px solid purple;
+    border-radius: 20px;
+    width: auto;
+    height:auto;
+    box-shadow: 0px 0px 20px violet;
+}
+
+.skills div p
+{
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem 1rem 1rem 1rem;
+    justify-content:center;
+}
+
+.skills div h3
+{
+    font-size: 1rem;
+    text-decoration:underline;
+    font-style: bold;
+    text-align: center;
+    margin: 1rem;
+}
+
+/* animation */
+.fun::before
+{
+    content : "";
+}
+.fun::after
+{
+    content : "";
+    animation: 15s course infinite;
+}
+@keyframes course 
+{
+    0%,20%
+    {
+        content:"Software Developer";
+    }
+    20%,40%
+    {
+        content: "Web Developer";
+    }
+    40%,60%
+    {
+        content: "Game Developer";
+    }
+    60%,80%
+    {
+        content: "Cyber Security";
+    }
+    80%,100%
+    {
+        content: "Graphics Designer";
+    }
+}
+
+/* media for width:600 */
+@media (max-width : 420px)
+{
+    *
+    {
+       background-color: grey;
+    }
+    .imagelogo
+    {
+        margin: 30px 0 0 30px;
+       width: 8rem;
+    }
+    .nav a
+    {
+        display: none;
+    }
+    .name 
+    {
+        margin:0 0 0 1rem;
+    }
+    .name p{
+        font-size: 25px;
+    }
+    .name p span{
+        font-size: 21px;
+    }
+    .para{
+        width: 380px;
+        margin: 1rem 1rem 1rem 1rem;
+        text-align:justify;
+    font-size: 17px;
+    }
+    .social a{
+        margin:1rem 1rem 0 0;
+    }
+    .social a i{
+        size: 20px;
+    }
+    .social{
+        margin:1rem 0 0 7rem;
+    }
+    .button{
+        margin-left:9rem;
+        margin-top: 10rem;
+    }
+    .btn{
+        font-size: 20px;
+        border:3px solid black;
+        padding: none;
+    }
+    .ima{
+        margin-left: 10rem;
+        margin-top: -10.5rem;
+       
+    }
+    .ima img{
+        width: 6rem;
+        height: 6rem;
+    }
+}
